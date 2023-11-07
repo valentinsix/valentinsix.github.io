@@ -5,7 +5,7 @@
 ### Machine Learning Projects 
 
 [Predicting Insurance Costs using Ensemble Methods](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/cost-of-health-coverage.png?raw=true"/>
 
 ---
 [Accuracy of Various Models in Heart
