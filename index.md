@@ -10,7 +10,7 @@
 ---
 [Accuracy of Various Models in Heart
 Diseases Detection](/pdf/sample_presentation.pdf)
-<img src="images/Heart-graphic-800x345.png?raw=true"/>
+<img src="images/Heart-graphic-800x345-2.png?raw=true"/>
 
 ---
 
