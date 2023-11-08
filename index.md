@@ -10,7 +10,7 @@
 
 ### Machine Learning Projects 
 
-[Predicting Insurance Costs using Ensemble Methods](/notebook.md)
+[Predicting Insurance Costs using Ensemble Methods](/notebook.html)
 <img src="images/cost-of-health-coverage-2.png?raw=true"/>
 
 ---
