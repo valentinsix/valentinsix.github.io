@@ -1,6 +1,6 @@
-## This can be your internal website page / project page
+## Predicting Insurance Costs usinf Ensemble Methods
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** This project is my first ML project ! I am excited to present it but I am also conscient that this project is quiet basic, which is a good start when first learning about a subject. The aim of this project is to play aroudn with a rather simple dataset and apply basic ML methods using the sk-learn library. This dataset was downloaded from Kaggle (a platform that I used to learn a bit about ML and DL): they are very acessible and esay to use (not to much preprocessing, useful when you're a beginner like me). In this project we will try to predict insurance costs using esnemble methods (ensemble methods combine the predictiosn of different learning algorithms in order to improve generalizability and performance).
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
