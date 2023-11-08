@@ -6,6 +6,8 @@ description: # your text below (remove <br> elements if you don't need line brea
   My interest for Machine Learning and Deep Learning has been growing over the years and I am thrilled to share my first ML and DL projects !
   <br><br>
   <a href="https://www.linkedin.com/in/valentin-six/">View My LinkedIn Profile</a> 
+  <br><br>
+  <a href="https://github.com/valentinsix">View My GitHub Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
