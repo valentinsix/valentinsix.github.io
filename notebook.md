@@ -1,5 +1,3 @@
-layout: custom
-
 # Predicting Medical Insurance Cost using Ensemble Methods
 
 ## Setup :
