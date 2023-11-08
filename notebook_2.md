@@ -1,3 +1,8 @@
+---
+layout: custom
+---
+
+
 # Accuracy of Various Models for Heart Disease Detection
 
 ## Import and clean data :
