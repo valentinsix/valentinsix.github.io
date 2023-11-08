@@ -14,7 +14,7 @@
 <img src="images/cost-of-health-coverage-2.png?raw=true"/>
 
 ---
-[Accuracy of Various Models in Heart Diseases Detection](/notebook_2.md)
+[Accuracy of Various Models in Heart Diseases Detection](/notebook_2.html)
 <img src="images/Heart-graphic-800x345-2.png?raw=true"/>
 
 ---
