@@ -18,6 +18,8 @@
 <img src="images/Heart-graphic-800x345-2.png?raw=true"/>
 
 ---
+[Calculating EA Sports FC 24 Player Ratings based on their Stats](/notebook_3.html)
+<img src="images/Heart-graphic-800x345-2.png?raw=true"/>
 
 ### Deep Learning Projects 
 
