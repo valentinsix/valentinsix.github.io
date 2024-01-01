@@ -12,10 +12,8 @@
 
 [Predicting Insurance Costs using Ensemble Methods](/notebook.html)
 
----
 [Accuracy of Various Models in Heart Diseases Detection](/notebook_2.html)
 
----
 [Calculating EA Sports FC 24 Player Ratings based on their Stats](/notebook_3.html)
 
 ### Deep Learning Projects 
