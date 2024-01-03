@@ -14,7 +14,7 @@
 
 [Accuracy of Various Models in Heart Diseases Detection](/notebook_2.html)
 
-[Calculating EA Sports FC 24 Player Ratings based on their Stats](/notebook_3.html)
+[Two Methods for Calculating EA Sports FC 24 Player Overall Rating](/ea_stats_2.html)
 
 ### Deep Learning Projects 
 
