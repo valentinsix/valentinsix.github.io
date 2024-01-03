@@ -10,14 +10,14 @@
 
 ### Machine Learning Projects 
 
-[Predicting Insurance Costs using Ensemble Methods](/notebook.html)
+[Predicting Insurance Costs using Ensemble Methods](/notebook.html){:target="_blank"}
 
-[Accuracy of Various Models in Heart Diseases Detection](/notebook_2.html)
+[Accuracy of Various Models in Heart Diseases Detection](/notebook_2.html){:target="_blank"}
 
-[Two Methods for Calculating EA Sports FC 24 Player Overall Rating](/ea_stats_2.html)
+[Two Methods for Calculating EA Sports FC 24 Player Overall Rating](/ea_stats_2.html){:target="_blank"}
 
 ### Deep Learning Projects 
 
-[Building a CNN for Sport Image Classification](/DL_CNN.html)
+[Building a CNN for Sport Image Classification](/DL_CNN.html){:target="_blank"}
 
 ---
