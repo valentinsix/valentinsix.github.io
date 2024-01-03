@@ -5,7 +5,7 @@ description: # your text below (remove <br> elements if you don't need line brea
   <br><br>
   <a href="https://www.linkedin.com/in/valentin-six/">View My LinkedIn Profile</a> 
   <br><br>
-  <a href="pdf/SIX_Valentin.pdf">View my Resume</a>
+  <a href="pdf/SIX_Valentin.pdf" target="_blank">View my Resume</a>
   <br><br>
   <a href="https://github.com/valentinsix">View My GitHub Profile</a> 
   
