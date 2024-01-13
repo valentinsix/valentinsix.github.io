@@ -51,16 +51,6 @@ ea_stats.head(10)
       <th>Shooting</th>
       <th>Passing</th>
       <th>...</th>
-      <th>Strength</th>
-      <th>Aggression</th>
-      <th>Att work rate</th>
-      <th>Def work rate</th>
-      <th>Preferred foot</th>
-      <th>Weak foot</th>
-      <th>Skill moves</th>
-      <th>URL</th>
-      <th>Gender</th>
-      <th>GK</th>
     </tr>
   </thead>
   <tbody>
@@ -77,16 +67,6 @@ ea_stats.head(10)
       <td>90</td>
       <td>80</td>
       <td>...</td>
-      <td>77</td>
-      <td>64</td>
-      <td>High</td>
-      <td>Low</td>
-      <td>Right</td>
-      <td>4</td>
-      <td>5</td>
-      <td>https://www.ea.com/games/ea-sports-fc/ratings/...</td>
-      <td>M</td>
-      <td>NaN</td>
     </tr>
     <tr>
       <th>1</th>
@@ -101,16 +81,6 @@ ea_stats.head(10)
       <td>93</td>
       <td>66</td>
       <td>...</td>
-      <td>93</td>
-      <td>87</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>Left</td>
-      <td>3</td>
-      <td>3</td>
-      <td>https://www.ea.com/games/ea-sports-fc/ratings/...</td>
-      <td>M</td>
-      <td>NaN</td>
     </tr>
     <tr>
       <th>2</th>
@@ -125,16 +95,6 @@ ea_stats.head(10)
       <td>88</td>
       <td>94</td>
       <td>...</td>
-      <td>74</td>
-      <td>75</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>Right</td>
-      <td>5</td>
-      <td>4</td>
-      <td>https://www.ea.com/games/ea-sports-fc/ratings/...</td>
-      <td>M</td>
-      <td>NaN</td>
     </tr>
     <tr>
       <th>3</th>
@@ -149,16 +109,6 @@ ea_stats.head(10)
       <td>87</td>
       <td>90</td>
       <td>...</td>
-      <td>68</td>
-      <td>44</td>
-      <td>Low</td>
-      <td>Low</td>
-      <td>Left</td>
-      <td>4</td>
-      <td>4</td>
-      <td>https://www.ea.com/games/ea-sports-fc/ratings/...</td>
-      <td>M</td>
-      <td>NaN</td>
     </tr>
     <tr>
       <th>4</th>
@@ -173,16 +123,6 @@ ea_stats.head(10)
       <td>88</td>
       <td>83</td>
       <td>...</td>
-      <td>82</td>
-      <td>63</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>Right</td>
-      <td>4</td>
-      <td>4</td>
-      <td>https://www.ea.com/games/ea-sports-fc/ratings/...</td>
-      <td>M</td>
-      <td>NaN</td>
     </tr>
     <tr>
       <th>5</th>
@@ -197,16 +137,6 @@ ea_stats.head(10)
       <td>89</td>
       <td>76</td>
       <td>...</td>
-      <td>70</td>
-      <td>23</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>Left</td>
-      <td>3</td>
-      <td>1</td>
-      <td>https://www.ea.com/games/ea-sports-fc/ratings/...</td>
-      <td>M</td>
-      <td>93.0</td>
     </tr>
     <tr>
       <th>6</th>
@@ -221,16 +151,6 @@ ea_stats.head(10)
       <td>93</td>
       <td>84</td>
       <td>...</td>
-      <td>84</td>
-      <td>80</td>
-      <td>High</td>
-      <td>High</td>
-      <td>Right</td>
-      <td>5</td>
-      <td>3</td>
-      <td>https://www.ea.com/games/ea-sports-fc/ratings/...</td>
-      <td>M</td>
-      <td>NaN</td>
     </tr>
     <tr>
       <th>7</th>
@@ -245,16 +165,6 @@ ea_stats.head(10)
       <td>91</td>
       <td>80</td>
       <td>...</td>
-      <td>89</td>
-      <td>81</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>Right</td>
-      <td>4</td>
-      <td>4</td>
-      <td>https://www.ea.com/games/ea-sports-fc/ratings/...</td>
-      <td>M</td>
-      <td>NaN</td>
     </tr>
     <tr>
       <th>8</th>
@@ -269,16 +179,6 @@ ea_stats.head(10)
       <td>87</td>
       <td>81</td>
       <td>...</td>
-      <td>75</td>
-      <td>63</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>Left</td>
-      <td>3</td>
-      <td>4</td>
-      <td>https://www.ea.com/games/ea-sports-fc/ratings/...</td>
-      <td>M</td>
-      <td>NaN</td>
     </tr>
     <tr>
       <th>9</th>
@@ -293,16 +193,6 @@ ea_stats.head(10)
       <td>39</td>
       <td>66</td>
       <td>...</td>
-      <td>90</td>
-      <td>93</td>
-      <td>Medium</td>
-      <td>High</td>
-      <td>Right</td>
-      <td>4</td>
-      <td>2</td>
-      <td>https://www.ea.com/games/ea-sports-fc/ratings/...</td>
-      <td>M</td>
-      <td>NaN</td>
     </tr>
   </tbody>
 </table>
