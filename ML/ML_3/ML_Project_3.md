@@ -39,17 +39,15 @@ ea_stats.head(10)
 
     .dataframe tbody tr th {
         vertical-align: top;
-        max-width: 800px; /* Adjust the max-width as needed */
-        overflow-x: scroll;
     }
 
     .dataframe thead th {
         text-align: right;
     }
 
-    .table {
-    max-width: 800px;
-        overflow-x: scroll;
+    .dataframe {
+        max-width: 800px;
+        overflow-x: auto;
     }
 </style>
 <table border="1" class="dataframe">
