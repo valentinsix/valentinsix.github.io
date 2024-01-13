@@ -264,16 +264,6 @@ X.head(10)
       <th>Physicality</th>
       <th>Acceleration</th>
       <th>...</th>
-      <th>Heading</th>
-      <th>Def</th>
-      <th>Standing</th>
-      <th>Sliding</th>
-      <th>Jumping</th>
-      <th>Stamina</th>
-      <th>Strength</th>
-      <th>Aggression</th>
-      <th>Weak foot</th>
-      <th>Skill moves</th>
     </tr>
   </thead>
   <tbody>
@@ -290,16 +280,6 @@ X.head(10)
       <td>78</td>
       <td>97</td>
       <td>...</td>
-      <td>73</td>
-      <td>26</td>
-      <td>34</td>
-      <td>32</td>
-      <td>88</td>
-      <td>88</td>
-      <td>77</td>
-      <td>64</td>
-      <td>4</td>
-      <td>5</td>
     </tr>
     <tr>
       <th>1</th>
@@ -314,16 +294,6 @@ X.head(10)
       <td>88</td>
       <td>82</td>
       <td>...</td>
-      <td>83</td>
-      <td>38</td>
-      <td>47</td>
-      <td>29</td>
-      <td>93</td>
-      <td>76</td>
-      <td>93</td>
-      <td>87</td>
-      <td>3</td>
-      <td>3</td>
     </tr>
     <tr>
       <th>2</th>
@@ -338,16 +308,6 @@ X.head(10)
       <td>78</td>
       <td>72</td>
       <td>...</td>
-      <td>55</td>
-      <td>66</td>
-      <td>70</td>
-      <td>53</td>
-      <td>72</td>
-      <td>88</td>
-      <td>74</td>
-      <td>75</td>
-      <td>5</td>
-      <td>4</td>
     </tr>
     <tr>
       <th>3</th>
@@ -362,16 +322,6 @@ X.head(10)
       <td>64</td>
       <td>87</td>
       <td>...</td>
-      <td>60</td>
-      <td>20</td>
-      <td>35</td>
-      <td>24</td>
-      <td>71</td>
-      <td>70</td>
-      <td>68</td>
-      <td>44</td>
-      <td>4</td>
-      <td>4</td>
     </tr>
     <tr>
       <th>4</th>
@@ -386,16 +336,6 @@ X.head(10)
       <td>78</td>
       <td>78</td>
       <td>...</td>
-      <td>90</td>
-      <td>43</td>
-      <td>24</td>
-      <td>18</td>
-      <td>85</td>
-      <td>82</td>
-      <td>82</td>
-      <td>63</td>
-      <td>4</td>
-      <td>4</td>
     </tr>
     <tr>
       <th>5</th>
@@ -410,16 +350,6 @@ X.head(10)
       <td>83</td>
       <td>67</td>
       <td>...</td>
-      <td>89</td>
-      <td>46</td>
-      <td>46</td>
-      <td>38</td>
-      <td>87</td>
-      <td>83</td>
-      <td>84</td>
-      <td>80</td>
-      <td>5</td>
-      <td>3</td>
     </tr>
     <tr>
       <th>6</th>
@@ -434,16 +364,6 @@ X.head(10)
       <td>84</td>
       <td>76</td>
       <td>...</td>
-      <td>91</td>
-      <td>35</td>
-      <td>42</td>
-      <td>19</td>
-      <td>92</td>
-      <td>76</td>
-      <td>89</td>
-      <td>81</td>
-      <td>4</td>
-      <td>4</td>
     </tr>
     <tr>
       <th>7</th>
@@ -458,16 +378,6 @@ X.head(10)
       <td>76</td>
       <td>89</td>
       <td>...</td>
-      <td>59</td>
-      <td>38</td>
-      <td>43</td>
-      <td>41</td>
-      <td>80</td>
-      <td>87</td>
-      <td>75</td>
-      <td>63</td>
-      <td>3</td>
-      <td>4</td>
     </tr>
     <tr>
       <th>8</th>
@@ -482,16 +392,6 @@ X.head(10)
       <td>87</td>
       <td>54</td>
       <td>...</td>
-      <td>87</td>
-      <td>91</td>
-      <td>91</td>
-      <td>87</td>
-      <td>84</td>
-      <td>78</td>
-      <td>90</td>
-      <td>93</td>
-      <td>4</td>
-      <td>2</td>
     </tr>
     <tr>
       <th>9</th>
@@ -506,16 +406,6 @@ X.head(10)
       <td>68</td>
       <td>95</td>
       <td>...</td>
-      <td>50</td>
-      <td>32</td>
-      <td>25</td>
-      <td>18</td>
-      <td>74</td>
-      <td>84</td>
-      <td>64</td>
-      <td>58</td>
-      <td>4</td>
-      <td>5</td>
     </tr>
   </tbody>
 </table>
@@ -600,16 +490,6 @@ X.head()
       <th>Physicality</th>
       <th>Acceleration</th>
       <th>...</th>
-      <th>Heading</th>
-      <th>Def</th>
-      <th>Standing</th>
-      <th>Sliding</th>
-      <th>Jumping</th>
-      <th>Stamina</th>
-      <th>Strength</th>
-      <th>Aggression</th>
-      <th>Weak foot</th>
-      <th>Skill moves</th>
     </tr>
   </thead>
   <tbody>
@@ -626,16 +506,6 @@ X.head()
       <td>78</td>
       <td>97</td>
       <td>...</td>
-      <td>73</td>
-      <td>26</td>
-      <td>34</td>
-      <td>32</td>
-      <td>88</td>
-      <td>88</td>
-      <td>77</td>
-      <td>64</td>
-      <td>4</td>
-      <td>5</td>
     </tr>
     <tr>
       <th>1</th>
@@ -650,16 +520,6 @@ X.head()
       <td>88</td>
       <td>82</td>
       <td>...</td>
-      <td>83</td>
-      <td>38</td>
-      <td>47</td>
-      <td>29</td>
-      <td>93</td>
-      <td>76</td>
-      <td>93</td>
-      <td>87</td>
-      <td>3</td>
-      <td>3</td>
     </tr>
     <tr>
       <th>2</th>
@@ -674,16 +534,6 @@ X.head()
       <td>78</td>
       <td>72</td>
       <td>...</td>
-      <td>55</td>
-      <td>66</td>
-      <td>70</td>
-      <td>53</td>
-      <td>72</td>
-      <td>88</td>
-      <td>74</td>
-      <td>75</td>
-      <td>5</td>
-      <td>4</td>
     </tr>
     <tr>
       <th>3</th>
@@ -698,16 +548,6 @@ X.head()
       <td>64</td>
       <td>87</td>
       <td>...</td>
-      <td>60</td>
-      <td>20</td>
-      <td>35</td>
-      <td>24</td>
-      <td>71</td>
-      <td>70</td>
-      <td>68</td>
-      <td>44</td>
-      <td>4</td>
-      <td>4</td>
     </tr>
     <tr>
       <th>4</th>
@@ -722,16 +562,6 @@ X.head()
       <td>78</td>
       <td>78</td>
       <td>...</td>
-      <td>90</td>
-      <td>43</td>
-      <td>24</td>
-      <td>18</td>
-      <td>85</td>
-      <td>82</td>
-      <td>82</td>
-      <td>63</td>
-      <td>4</td>
-      <td>4</td>
     </tr>
   </tbody>
 </table>
@@ -783,16 +613,6 @@ X_train.head()
       <th>Physicality</th>
       <th>Acceleration</th>
       <th>...</th>
-      <th>Heading</th>
-      <th>Def</th>
-      <th>Standing</th>
-      <th>Sliding</th>
-      <th>Jumping</th>
-      <th>Stamina</th>
-      <th>Strength</th>
-      <th>Aggression</th>
-      <th>Weak foot</th>
-      <th>Skill moves</th>
     </tr>
   </thead>
   <tbody>
@@ -809,16 +629,6 @@ X_train.head()
       <td>61</td>
       <td>77</td>
       <td>...</td>
-      <td>60</td>
-      <td>25</td>
-      <td>12</td>
-      <td>17</td>
-      <td>76</td>
-      <td>64</td>
-      <td>69</td>
-      <td>35</td>
-      <td>3</td>
-      <td>2</td>
     </tr>
     <tr>
       <th>9518</th>
@@ -833,16 +643,6 @@ X_train.head()
       <td>68</td>
       <td>67</td>
       <td>...</td>
-      <td>50</td>
-      <td>61</td>
-      <td>61</td>
-      <td>59</td>
-      <td>64</td>
-      <td>71</td>
-      <td>69</td>
-      <td>63</td>
-      <td>3</td>
-      <td>2</td>
     </tr>
     <tr>
       <th>2916</th>
@@ -857,16 +657,6 @@ X_train.head()
       <td>71</td>
       <td>63</td>
       <td>...</td>
-      <td>69</td>
-      <td>45</td>
-      <td>38</td>
-      <td>26</td>
-      <td>76</td>
-      <td>68</td>
-      <td>76</td>
-      <td>61</td>
-      <td>4</td>
-      <td>3</td>
     </tr>
     <tr>
       <th>9161</th>
@@ -881,16 +671,6 @@ X_train.head()
       <td>73</td>
       <td>52</td>
       <td>...</td>
-      <td>63</td>
-      <td>63</td>
-      <td>63</td>
-      <td>61</td>
-      <td>74</td>
-      <td>67</td>
-      <td>82</td>
-      <td>56</td>
-      <td>2</td>
-      <td>2</td>
     </tr>
     <tr>
       <th>9314</th>
@@ -905,16 +685,6 @@ X_train.head()
       <td>65</td>
       <td>64</td>
       <td>...</td>
-      <td>44</td>
-      <td>39</td>
-      <td>52</td>
-      <td>48</td>
-      <td>55</td>
-      <td>71</td>
-      <td>64</td>
-      <td>60</td>
-      <td>3</td>
-      <td>3</td>
     </tr>
   </tbody>
 </table>
