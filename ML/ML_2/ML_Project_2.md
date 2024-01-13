@@ -52,15 +52,6 @@ heart_disease.head()
       <th>Smoking</th>
       <th>Obesity</th>
       <th>...</th>
-      <th>Sedentary Hours Per Day</th>
-      <th>Income</th>
-      <th>BMI</th>
-      <th>Triglycerides</th>
-      <th>Physical Activity Days Per Week</th>
-      <th>Sleep Hours Per Day</th>
-      <th>Country</th>
-      <th>Continent</th>
-      <th>Hemisphere</th>
       <th>Heart Attack Risk</th>
     </tr>
   </thead>
@@ -78,15 +69,6 @@ heart_disease.head()
       <td>1</td>
       <td>0</td>
       <td>...</td>
-      <td>6.615001</td>
-      <td>261404</td>
-      <td>31.251233</td>
-      <td>286</td>
-      <td>0</td>
-      <td>6</td>
-      <td>Argentina</td>
-      <td>South America</td>
-      <td>Southern Hemisphere</td>
       <td>0</td>
     </tr>
     <tr>
@@ -102,15 +84,6 @@ heart_disease.head()
       <td>1</td>
       <td>1</td>
       <td>...</td>
-      <td>4.963459</td>
-      <td>285768</td>
-      <td>27.194973</td>
-      <td>235</td>
-      <td>1</td>
-      <td>7</td>
-      <td>Canada</td>
-      <td>North America</td>
-      <td>Northern Hemisphere</td>
       <td>0</td>
     </tr>
     <tr>
@@ -126,15 +99,6 @@ heart_disease.head()
       <td>0</td>
       <td>0</td>
       <td>...</td>
-      <td>9.463426</td>
-      <td>235282</td>
-      <td>28.176571</td>
-      <td>587</td>
-      <td>4</td>
-      <td>4</td>
-      <td>France</td>
-      <td>Europe</td>
-      <td>Northern Hemisphere</td>
       <td>0</td>
     </tr>
     <tr>
@@ -150,15 +114,6 @@ heart_disease.head()
       <td>1</td>
       <td>0</td>
       <td>...</td>
-      <td>7.648981</td>
-      <td>125640</td>
-      <td>36.464704</td>
-      <td>378</td>
-      <td>3</td>
-      <td>4</td>
-      <td>Canada</td>
-      <td>North America</td>
-      <td>Northern Hemisphere</td>
       <td>0</td>
     </tr>
     <tr>
@@ -174,15 +129,6 @@ heart_disease.head()
       <td>1</td>
       <td>1</td>
       <td>...</td>
-      <td>1.514821</td>
-      <td>160555</td>
-      <td>21.809144</td>
-      <td>231</td>
-      <td>1</td>
-      <td>5</td>
-      <td>Thailand</td>
-      <td>Asia</td>
-      <td>Northern Hemisphere</td>
       <td>0</td>
     </tr>
   </tbody>
@@ -252,16 +198,6 @@ X.head()
       <th>Alcohol Consumption</th>
       <th>Exercise Hours Per Week</th>
       <th>...</th>
-      <th>Medication Use</th>
-      <th>Stress Level</th>
-      <th>Sedentary Hours Per Day</th>
-      <th>Income</th>
-      <th>BMI</th>
-      <th>Triglycerides</th>
-      <th>Physical Activity Days Per Week</th>
-      <th>Sleep Hours Per Day</th>
-      <th>Continent</th>
-      <th>Hemisphere</th>
     </tr>
   </thead>
   <tbody>
@@ -278,16 +214,6 @@ X.head()
       <td>0</td>
       <td>4.168189</td>
       <td>...</td>
-      <td>0</td>
-      <td>9</td>
-      <td>6.615001</td>
-      <td>261404</td>
-      <td>31.251233</td>
-      <td>286</td>
-      <td>0</td>
-      <td>6</td>
-      <td>South America</td>
-      <td>Southern Hemisphere</td>
     </tr>
     <tr>
       <th>1</th>
@@ -302,16 +228,6 @@ X.head()
       <td>1</td>
       <td>1.813242</td>
       <td>...</td>
-      <td>0</td>
-      <td>1</td>
-      <td>4.963459</td>
-      <td>285768</td>
-      <td>27.194973</td>
-      <td>235</td>
-      <td>1</td>
-      <td>7</td>
-      <td>North America</td>
-      <td>Northern Hemisphere</td>
     </tr>
     <tr>
       <th>2</th>
@@ -326,16 +242,6 @@ X.head()
       <td>0</td>
       <td>2.078353</td>
       <td>...</td>
-      <td>1</td>
-      <td>9</td>
-      <td>9.463426</td>
-      <td>235282</td>
-      <td>28.176571</td>
-      <td>587</td>
-      <td>4</td>
-      <td>4</td>
-      <td>Europe</td>
-      <td>Northern Hemisphere</td>
     </tr>
     <tr>
       <th>3</th>
@@ -350,16 +256,6 @@ X.head()
       <td>1</td>
       <td>9.828130</td>
       <td>...</td>
-      <td>0</td>
-      <td>9</td>
-      <td>7.648981</td>
-      <td>125640</td>
-      <td>36.464704</td>
-      <td>378</td>
-      <td>3</td>
-      <td>4</td>
-      <td>North America</td>
-      <td>Northern Hemisphere</td>
     </tr>
     <tr>
       <th>4</th>
@@ -374,16 +270,6 @@ X.head()
       <td>0</td>
       <td>5.804299</td>
       <td>...</td>
-      <td>0</td>
-      <td>6</td>
-      <td>1.514821</td>
-      <td>160555</td>
-      <td>21.809144</td>
-      <td>231</td>
-      <td>1</td>
-      <td>5</td>
-      <td>Asia</td>
-      <td>Northern Hemisphere</td>
     </tr>
   </tbody>
 </table>
