@@ -18,6 +18,6 @@
 
 ### Deep Learning Projects 
 
-[Building a CNN for Sport Image Classification](/DL_Project_1.html){:target="_blank"}
+[Building a CNN for Sport Image Classification](/DL/DL_1/DL_CNN.md){:target="_blank"}
 
 ---
