@@ -1,8 +1,3 @@
----
-layout: default
-title: My Example Page
----
-
 # Building a CNN for Sports Image Classification
 
 The goal of this project is to build a Neural Network for Image Classification. Having learned a few things about Computer Vision in class recently, I would like to try to build a Convolutional Neural Network (CNN) to classify some images. The dataset that I will be using comes form Kaggle.
@@ -60,7 +55,7 @@ plt.show()
 
 
     
-![png](output_8_0.png)
+![png](/DL/DL_1/images/output_8_0.png)
     
 
 
