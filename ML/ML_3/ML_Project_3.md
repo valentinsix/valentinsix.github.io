@@ -45,7 +45,7 @@ ea_stats.head(10)
 
     .dataframe {
         max-width: 800px; /* Adjust the max-width as needed */
-        overflow-x: auto;
+        overflow-x: scroll;
     }
 </style>
 <table border="1" class="dataframe">
