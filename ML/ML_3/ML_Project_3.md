@@ -32,6 +32,7 @@ ea_stats.head(10)
   <style>
   .dataframe {
     max-width: 900px;
+    width: 100%;
     overflow-x: auto;
     }
   </style>
