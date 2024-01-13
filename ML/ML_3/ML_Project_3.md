@@ -46,6 +46,11 @@ ea_stats.head(10)
     .dataframe thead th {
         text-align: right;
     }
+
+    .table {
+    max-width: 800px;
+        overflow-x: scroll;
+    }
 </style>
 <table border="1" class="dataframe">
   <thead>
