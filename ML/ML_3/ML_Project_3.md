@@ -28,8 +28,13 @@ ea_stats.head(10)
 
 
 
-
 <div>
+  <style>
+  .dataframe {
+    max-width: 900px;
+    overflow-x: auto;
+    }
+  </style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
