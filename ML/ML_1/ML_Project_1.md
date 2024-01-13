@@ -172,7 +172,7 @@ plt.show()
 
 
     
-![png](output_13_0.png)
+![png](ML/ML_1/images/output_13_0.png)
     
 
 
@@ -307,7 +307,7 @@ save_fig("visualization_charges_against_age")
 
 
     
-![png](output_25_0.png)
+![png](ML/ML_1/images/output_25_0.png)
     
 
 
@@ -347,7 +347,7 @@ save_fig("scatter_matrix_plot")
 
 
     
-![png](output_31_0.png)
+![png](ML/ML_1/images/output_31_0.png)
     
 
 
