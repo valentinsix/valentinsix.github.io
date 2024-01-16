@@ -7,14 +7,13 @@ description: # your text below (remove <br> elements if you don't need line brea
   <br><br>
   <a href="https://valentinsix.github.io">Home</a> 
   <br><br>
-  <br><br>
-  <a href="mailto:six.valentin@gmail.com?subject=Hello%20there!">Send Email</a>
+  <a href="pdf/SIX_Valentin.pdf" target="_blank">View my Resume</a>
   <br><br>
   <a href="https://www.linkedin.com/in/valentin-six/" target="_blank">View My LinkedIn Profile</a> 
   <br><br>
-  <a href="pdf/SIX_Valentin.pdf" target="_blank">View my Resume</a>
+  <a href="https://github.com/valentinsix" target="_blank">View My GitHub Profile</a>
   <br><br>
-  <a href="https://github.com/valentinsix" target="_blank">View My GitHub Profile</a> 
+  <a href="mailto:six.valentin@gmail.com?subject=Hello%20there!">Send Email</a>
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
