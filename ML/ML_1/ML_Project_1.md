@@ -172,7 +172,7 @@ plt.show()
 
 
     
-![png](ML/ML_1/images/output_13_0.png)
+![png](/ML/ML_1/images/output_13_0.png)
     
 
 
