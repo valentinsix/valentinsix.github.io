@@ -418,7 +418,7 @@ plt.show()
 
 
     
-![png](ML/ML_2/images/output_18_1.png)
+![png](/ML/ML_2/images/output_18_1.png)
     
 
 
@@ -502,7 +502,7 @@ plt.show()
 
 
     
-![png](ML/ML_2/images/output_24_1.png)
+![png](/ML/ML_2/images/output_24_1.png)
     
 
 
@@ -555,7 +555,7 @@ plt.show()
 
 
     
-![png](ML/ML_2/images/output_26_1.png)
+![png](/ML/ML_2/images/output_26_1.png)
     
 
 
@@ -581,7 +581,7 @@ plt.bar(height=list_acc_models, x=list_models_name, width=0.5)
 
 
     
-![png](ML/ML_2/images/output_28_1.png)
+![png](/ML/ML_2/images/output_28_1.png)
     
 
 
