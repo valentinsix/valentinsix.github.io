@@ -1,11 +1,8 @@
 title: Valentin Six # your name (or website title) here
 #logo: "images/jacobins.jpg" # your photo (or logo) here
-description: # your text below (remove <br> elements if you don't need line breaks)
+description: >
   Hi there ! I'm a graduate Computer Science student at Télécom SudParis (Institut Polytechnique de Paris). 
-  <br><br>
-  I started to build some small projects on my own to learn ML and DL by myself.
-  I am happy to share some of my projects on this page. 
-  <br><br>
+  I started to build some small projects on my own to learn ML and I am happy to share some of these projects on this page. 
   Don't hesitate to contact me via LinkedIn or per email.
   <br><br>
   <a href="https://valentinsix.github.io">Home</a> 
