@@ -213,7 +213,7 @@ plt.show()
 
 
     
-![png](ML/ML_3/images/output_6_0.png)
+![png](/ML/ML_3/images/output_6_0.png)
     
 
 
@@ -756,7 +756,7 @@ plt.show()
 
 
     
-![png](ML/ML_3/images/output_24_0.png)
+![png](/ML/ML_3/images/output_24_0.png)
     
 
 
@@ -764,7 +764,7 @@ We can see that for high ratings (above 80) and low ratings (below 60) the model
 
 Now we can try something else, which is already a bit more fun. A FIFA player card usually looks like this:
 
-![Haaland-2.png](ML/ML_3/images/output_37_0.png)
+![Haaland-2.png](/ML/ML_3/images/output_37_0.png)
 
 We can see the "Overall Rating" of the player, which is 96; but we also see 6 other ratings a the bottom of the card (Pace, Shooting, Passing, Dribbling, Defending and Physicality). Those ratings are already calculated from other sub-ratings we have work with previously, so calculating those 6 ratings separatly should be quite easy.    
 
@@ -904,7 +904,7 @@ plt.show()
 
 
     
-![png](output_37_0.png)
+![png](/output_37_0.png)
     
 
 
