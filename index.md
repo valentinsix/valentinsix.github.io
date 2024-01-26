@@ -20,4 +20,6 @@
 
 [Building a CNN for Sport Image Classification](DL/DL_1/DL_Project_1.md)
 
+[Natural Language Processing for Sarcasm Detection](DL/DL_2/DL_Project_2.md)
+
 ---
