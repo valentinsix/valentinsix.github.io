@@ -24,6 +24,6 @@
 
 ## Visuals
 
-[Formula 1 Ciruits around the world](formula1/f1_map.html)
+<a href="formula1/f1_map.html" target="_blank">Formula 1 Circuits around the world</a>
 
 ---
