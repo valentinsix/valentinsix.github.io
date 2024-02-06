@@ -22,4 +22,8 @@
 
 [Natural Language Processing for Sarcasm Detection](DL/DL_2/DL_Project_2.md)
 
+## Visuals
+
+[Formula 1 Ciruits around the world](formula1/f1_map.html)
+
 ---
