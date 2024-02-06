@@ -25,7 +25,7 @@
 ## Visuals
 
 <a href="formula1/f1_map.html" target="_blank">
-    <img src="formula1/images/f1_map_image.png" alt="Formula 1 Circuits around the world" width=100>
+    <img src="formula1/images/f1_map_image.png" alt="Formula 1 Circuits around the world" width=500>
 </a>
 
 ---
