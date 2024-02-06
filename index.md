@@ -24,6 +24,11 @@
 
 ## Visuals
 
-<a href="formula1/f1_map.html" target="_blank">Formula 1 Circuits around the world</a>
+<a href="formula1/f1_map.html" target="_blank">
+    <div style="text-align: center;">
+        <h2>Formula 1 Circuits around the World</h2>
+        <img src="formula1/images/f1_map_image.png" alt="Formula 1 Circuits around the world">
+    </div>
+</a>
 
 ---
