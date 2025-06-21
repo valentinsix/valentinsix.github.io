@@ -27,18 +27,21 @@
     margin-inline-start: auto;
 }
 
-.social-icons a {
-    display: inline-flex;
-    padding: 10px 14px 10px 0px;
+.social-icons {
+    padding: 12px 0;
+}
+
+.social-icons a:not(:last-of-type) {
+    margin-inline-end: 12px;
 }
 
 .social-icons a svg {
-    height: 30px;
-    width: 30px;
+    height: 26px;
+    width: 26px;
 }
 
 .social-icons a:hover {
-    color: var(--darkcolor);
+    color: var(--darkpurple);
 }
 
 code {
@@ -74,3 +77,14 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+
+mark.blue {
+    color: var(--blue-links);
+    background: none;
+}
+
+.blueText 
+{ 
+    color: var(--blue-links); 
+} 

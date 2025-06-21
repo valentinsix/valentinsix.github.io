@@ -26,6 +26,10 @@
     box-shadow: 0 1px 0 var(--secondary);
 }
 
+.breadcrumbs a {
+    font-size: 15px;
+}
+
 .post-content {
     color: var(--content);
     line-height: var(--lineheight);
@@ -75,9 +79,11 @@
 .post-content a,
 .post-meta a,
 .toc a:hover {
-    box-shadow: 0 2px 0 var(--darkcolor);
-    color: currentColor; 
+    box-shadow: none;
+    color: var(--blue-links); /* Bright blue */
+    text-decoration: none;
 }
+
 
 .post-content a code {
     margin: auto 0;
@@ -86,7 +92,8 @@
 }
 
 .post-content del {
-    text-decoration: line-through;
+    text-decoration: none;
+    background: linear-gradient(to right, var(--primary) 100%, transparent 0) 0 50%/1px 1px repeat-x;
 }
 
 .post-content dl,
@@ -108,7 +115,7 @@
 }
 
 .post-content li::marker {
-    color: var(--tertiary);
+    color: var(--gray);
 }
 
 .post-content li p {
@@ -138,24 +145,20 @@
 }
 
 .post-content table {
-    margin-bottom: var(--content-gap);
+    margin-bottom: 32px;
 }
 
 .post-content table th,
 .post-content table:not(.highlighttable, .highlight table, .gist .highlight) td {
     min-width: 80px;
-    padding: 8px 5px;
+    padding: 12px 8px;
     line-height: var(--lineheight);
     border-bottom: 1px solid var(--border);
 }
 
 .post-content table th {
-    text-align: start;
     font-size: 14px;
-    font-weight: var(--semibold);
-    text-transform: uppercase;
-    color: var(--gray);
-    border-bottom: 2px solid var(--tertiary);
+    text-align: start;
 }
 
 .post-content table:not(.highlighttable) td code:only-child {
@@ -168,7 +171,7 @@
 
 .post-content .highlight:not(table) {
     margin: 10px auto;
-    background: var(--code-block-bg) !important;
+    background: var(--hljs-bg) !important;
     border-radius: var(--radius);
     direction: ltr;
 }
@@ -209,10 +212,11 @@
     line-height: var(--lineheight);
     background: var(--code-bg);
     border-radius: 2px;
+    border: 1px solid var(--border);
 }
 
 .post-content pre code {
-    display: grid;
+    display: block;
     margin: auto 0;
     padding: 10px;
     color: var(--secondary);
@@ -223,9 +227,8 @@
 
 .post-content blockquote {
     margin: 20px 0;
-    padding: 0 20px;
-    color: var(--secondary);    
-    border-inline-start: 6px solid var(--tertiary);
+    padding: 0 14px;
+    border-inline-start: 4px solid var(--gray);
 }
 
 .post-content hr {
@@ -274,7 +277,7 @@
 }
 
 .toc li::marker {
-    color: var(--tertiary);
+    color: var(--gray);
 }
 
 .dark .toc {
@@ -283,8 +286,7 @@
 
 .toc details summary {
     cursor: zoom-in;
-    margin-inline-start: 10px;
-    user-select: none;
+    margin-inline-start: calc(var(--marginleft) - 12px);
 }
 
 .toc details[open] summary {
@@ -299,9 +301,8 @@
 }
 
 .toc .inner {
-    margin: 5px 20px 0;
-    padding: 0 10px;
-    opacity: 0.9;
+    margin: 0 calc(var(--marginleft) - 12px);
+    padding: 10px 20px;
     font-size: 16px;
 }
 
@@ -317,19 +318,10 @@
     margin-top: 60px;
 }
 
-.post-footer>* {
-    margin-bottom: 10px;
-}
-
-.post-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-
 .post-tags li {
     display: inline-block;
+    margin-inline-end: 5px;
+    margin-bottom: 10px;
 }
 
 .post-tags a,
@@ -337,11 +329,13 @@
 .paginav {
     border-radius: var(--radius);
     background: var(--code-bg);
+    border: 1px solid var(--border);
 }
 
 .post-tags a {
     display: block;
-    padding: 0 10px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
     color: var(--secondary);
     font-size: 16px;
     line-height: 32px;
@@ -349,26 +343,24 @@
 }
 
 .post-tags a:hover {
-    background: var(--lightcolor);
+    background: var(--lightpurple);
 }
 
 .paginav a:hover {
-    background: var(--lightcolor);
+    background: var(--lightpurple);
 }
 
 .share-buttons {
-    padding: 10px;
+    margin: 13px 0;
+    padding-inline-start: var(--radius);
     display: flex;
     justify-content: center;
     overflow-x: auto;
-    gap: 10px;
 }
 
-.share-buttons li,
 .share-buttons a {
-    display: inline-flex;
+    margin-top: 10px;
 }
-
 
 .share-buttons a:not(:last-of-type) {
     margin-inline-end: 12px;
@@ -381,17 +373,19 @@ h4:hover .anchor,
 h5:hover .anchor,
 h6:hover .anchor {
     display: inline-flex;
-    color: var(--darkcolor);
+    color: var(--darkpurple);
     margin-inline-start: 10px;
     font-weight: 700;
     user-select: none;
-    box-shadow: 0 0px 0 var(--darkcolor);
+    box-shadow: 0 0px 0 var(--darkpurple);
 }
 
 .paginav {
+    margin: 10px 0;
     display: flex;
     line-height: var(--lineheight);
     font-size: var(--footersize);
+    border-radius: var(--radius);
 }
 
 .paginav a {
@@ -433,9 +427,9 @@ img.in-text {
 }
 
 a[href^="#fn:"], a[href^="#fnref:"] {
-     box-shadow: 0 0px 0 var(--darkcolor);
+     box-shadow: 0 0px 0 var(--darkpurple);
 }
 
 a[href^="#fn:"]:hover, a[href^="#fnref:"]:hover {
-    color: var(--darkcolor);
+    color: var(--darkpurple);
 }
