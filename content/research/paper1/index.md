@@ -2,7 +2,7 @@
 title: "Decompositional Reasoning for Graph Retrieval with Large Language Models" 
 date: 2025-05-19
 tags: []
-author: ["Valentin Six","Evan Dufraisse", Gaël de Chalendar]
+author: ["Valentin Six","Evan Dufraisse", "Gaël de Chalendar"]
 description: "This paper is about LLMs, knowledge graphs, and the interconnection of both neural and symbolic domains." 
 summary: "Large Language Models, Knowledge Graphs, GraphRAG, Question-Answering, Reasoning" 
 cover:
