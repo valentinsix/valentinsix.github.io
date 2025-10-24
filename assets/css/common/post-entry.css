@@ -39,12 +39,17 @@
     padding: var(--gap);
     background: var(--entry);
     border-radius: var(--radius);
-    transition: transform 0.1s;
-    border: 2px solid var(--border);
+    transition: all 0.3s ease;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+    backdrop-filter: blur(10px);
 }
 
 .post-entry:hover {
-     border: 2px solid var(--midpurple);
+    border-color: var(--primary);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    background: rgba(255, 255, 255, 0.95);
 }
 
 .tag-entry .entry-cover {
@@ -52,8 +57,12 @@
 }
 
 .entry-header h2 {
-    font-size: 20px;
+    font-size: 24px;
     line-height: var(--lineheight);
+    font-weight: 500;
+    margin-bottom: 12px;
+    letter-spacing: -0.4px;
+    color: var(--primary);
 }
 
 .entry-content {

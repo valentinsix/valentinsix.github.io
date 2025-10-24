@@ -1,0 +1,61 @@
+{{- /* Enhanced SEO and Structured Data */ -}}
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Valentin Six",
+  "description": "Computer Science Master's Student at Georgia Tech. Research Intern at CEA-LIST working on knowledge graphs, GraphRAG, and LLM reasoning.",
+  "url": "{{ .Site.BaseURL }}",
+  "image": "{{ .Site.BaseURL }}/knowledge-graph.png",
+  "sameAs": [
+    "https://www.linkedin.com/in/valentin-six/",
+    "https://github.com/valentinsix"
+  ],
+  "jobTitle": "Master's Student in Computer Science",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Georgia Institute of Technology"
+  },
+  "alumniOf": [
+    {
+      "@type": "Organization",
+      "name": "Georgia Institute of Technology"
+    },
+    {
+      "@type": "Organization", 
+      "name": "Télécom SudParis"
+    }
+  ],
+  "knowsAbout": [
+    "Computer Science",
+    "Knowledge Graphs", 
+    "GraphRAG",
+    "Machine Learning",
+    "LLM Reasoning",
+    "Research"
+  ],
+  "email": "vsix3@gatech.edu"
+}
+</script>
+{{- end }}
+
+{{- /* Additional meta tags for better SEO */ -}}
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+<meta name="bingbot" content="index, follow">
+
+{{- /* Language and locale */ -}}
+<meta name="language" content="en-US">
+<meta name="geo.region" content="US-GA">
+<meta name="geo.placename" content="Atlanta">
+
+{{- /* Additional Open Graph tags */ -}}
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:site_name" content="Valentin Six - Academic Portfolio">
+<meta property="og:locale" content="en_US">
+
+{{- /* Twitter Card tags */ -}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@valentinsix">
+<meta name="twitter:creator" content="@valentinsix">

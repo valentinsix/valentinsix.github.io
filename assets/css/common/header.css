@@ -5,7 +5,13 @@
     margin-inline-start: auto;
     margin-inline-end: auto;
     line-height: var(--header-height);
-    background: var(--code-bg);
+    background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(248,250,252,0.95) 100%);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .nav a {
@@ -67,6 +73,16 @@ body:not(.dark) #sun {
 #menu a {
     font-size: var(--headersize);
     font-weight: 400;
+    transition: all 0.2s ease;
+    padding: 8px 12px;
+    border-radius: 8px;
+    position: relative;
+}
+
+#menu a:hover {
+    background: rgba(37, 99, 235, 0.1);
+    color: var(--blue-links);
+    transform: translateY(-1px);
 }
 
 #menu .active {

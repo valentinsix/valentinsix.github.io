@@ -26,8 +26,9 @@ menu:
       weight: 4
 
 params:
-  description: "This website hosts information about Valentin Six, including research interests, publications, curriculum and contact information."
+  description: "Valentin Six - Computer Science Master's Student at Georgia Tech. Research Intern at CEA-LIST working on knowledge graphs, GraphRAG, and LLM reasoning. Academic portfolio, research publications, and blog."
   author: Valentin Six
+  keywords: ["Valentin Six", "Computer Science", "Georgia Tech", "Knowledge Graphs", "GraphRAG", "LLM", "Machine Learning", "Research", "Academic", "CEA-LIST", "Télécom SudParis"]
   # googleAnalyticsID: "G-XXXXX"
   DateFormat: "January 2006"
   defaultTheme: light
@@ -49,6 +50,12 @@ params:
   UseHugoToc: true
   comments: false
   math: true
+  schema:
+    publisherType: "Person"
+  assets:
+    disableScrollBarStyle: true
+    theme_color: "#2563eb"
+    msapplication_TileColor: "#2563eb"
   profileMode:
     enabled: true
     title: Valentin Six

@@ -3,8 +3,8 @@ title: "Curriculum"
 aliases:
     - /contact.html
 hidemeta: true
-description: ""
-
+description: "Academic journey of Valentin Six: Master's in Computer Science at Georgia Tech, Engineering studies at Télécom SudParis, and current research work at CEA-LIST on knowledge graphs and LLM reasoning."
+keywords: ["Valentin Six CV", "Georgia Tech", "Télécom SudParis", "CEA-LIST", "computer science education", "academic background", "research experience"]
 ---
 
 ## Curriculum Vitæ
