@@ -15,7 +15,7 @@ A more concise version can be found [here](/cv.pdf).
 
 ---
 
-## 🎓 Lycée Pierre de Fermat (2020-2022)
+## 🇫🇷 Lycée Pierre de Fermat (2020-2022)
 
 I did my "Classe Préparatoire" at the **[Lycée Pierre de Fermat](https://fr.wikipedia.org/wiki/Lyc%C3%A9e_Pierre-de-Fermat)** in Toulouse. This establishment is often ranked as one of the best in France for the preparation of students. I mainly studied Mathematics, Physics and Chemistry. 
 
@@ -35,15 +35,15 @@ I did my "Classe Préparatoire" at the **[Lycée Pierre de Fermat](https://fr.wi
   <figcaption style="font-weight: normal; font-style: italic;">Lycée Pierre de Fermat, located in the center of Toulouse. Not too bad...</figcaption>
 </figure>
 
-## 💻 Télécom SudParis (2022-2024)
+## 🇫🇷 Télécom SudParis (2022-2024)
 
 After passing the national entry exam for the "Grandes Écoles", I joined **[Télécom SudParis](https://www.telecom-sudparis.eu/en/)**, which is part of the **[Institut Polytechnique de Paris](https://www.ip-paris.fr/en)**.
 
 >_For non-French readers unfamiliar with this system:_ 
 >
->When joining a Grande École, will obtain a "Diplome d'Ingénieur", which is equivalent to a **Master of Science (MS)** degree. It is important to not that students usually  <u> don't obtain an intermediate Bachelor's degree </u> ; we only get a Master's degree after 5 years (CPGE + Grande École).
+>When joining a Grande École, one will obtain a "Diplome d'Ingénieur", which is equivalent to a **Master of Science (MS)** degree. It is important to not that students usually  <u> don't obtain an intermediate Bachelor's degree </u> ; we only get a Master's degree after 5 years (CPGE + Grande École).
 
-At Télécom SudParis, I followed many different classes on various topics: Mathematics, Physics, Computer Science, Networks, Economics... During our fist year, most students will take classes in different domains, and will later chose a specific domain they want to major in. For the rest of my cursus at TSP, I was a major in Data Science. 
+At Télécom SudParis, I followed many different classes on various topics: Mathematics, Physics, Computer Science, Networks, Economics... During our first year, most students will take classes in different domains, and will later chose a specific domain they want to major in. For the rest of my cursus at TSP, I was focusing on Deep Learning and Statistics. 
 
 My favourites classes were Applied Statistics, Machine Learning, Stochastic Processes, Bayesian Estimation in Markovian models, and Computer Vision. 
 
@@ -53,17 +53,18 @@ My favourites classes were Applied Statistics, Machine Learning, Stochastic Proc
 </figure>
 
 
-## 🐝 Georgia Tech (2024-2025)
+## 🇺🇸 Georgia Tech (2024-2025)
 
-After my time at  Télécom SudParis, I joined the **[Georgia Institute of Technology](https://www.gatech.edu/)** as a MS student in Computer Science. I first spent a semester at **[Georgia Tech Euope (GTE)](https://europe.gatech.edu/en)**, which is located in Metz.  
+After my time at  Télécom SudParis, I joined the **[Georgia Institute of Technology](https://www.gatech.edu/)** (double-degree program) to study Computer Science. I first spent a semester at **[Georgia Tech Euope (GTE)](https://europe.gatech.edu/en)**, and then spent a semester on the main campus in Atlanta.  
 
-At GTE, I took the following courses: Machine Learning (CS 7641), Intro to Grad Algorithms (CS 6515), ML for Robotics (CS 7644), Research for ML and Robotics (CS8813 R).  
+At GT, I took the following courses: Machine Learning (CS 7641), Intro to Grad Algorithms (CS 6515), ML for Robotics (CS 7644), Research for ML and Robotics (CS8813 R), Deep Learning (CS 7643), and Master's Project (CS 6999).  
 
-For the Special Topics class, I conducted a research project with other graduate students, under the supervision of **[Prof. Cédric Pradalier](https://research.gatech.edu/people/cedric-pradalier)**.  
+For the Special Topics class, I conducted a research project with other graduate students, under the supervision of **[Prof. Cédric Pradalier](https://scholar.google.com/citations?user=4_1DZoYAAAAJ&hl=en)**.  
 
-Fall 2025 will be my last semester at Georgia Tech, what a journey it was !
+For my Master's Project, I am currently conducting research on Adaptive Graph Retrieval Augmented Generation under the supervision of **[Prof. Pan Li](https://scholar.google.com/citations?user=IroP0EwAAAAJ&hl=en)**. I am also working on Diffusion LLMs under the supervision of **[Prof. Yingyan (Celine) Lin](https://scholar.google.com/citations?user=dio8IesAAAAJ&hl=en)**.
+
 
 <figure >
   <img src="/gt2.jpg" alt="Nice picture of gt" width="600">
-  <figcaption style="font-weight: normal; font-style: italic;">The famous Tech Tower situated at the heart Georgia Tech's campus.</figcaption>
+  <figcaption style="font-weight: normal; font-style: italic;">The famous Tech Tower situated at the heart of Georgia Tech's campus.</figcaption>
 </figure>

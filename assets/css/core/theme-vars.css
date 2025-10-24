@@ -5,47 +5,56 @@
     --main-width: 720px;
     --header-height: 44px;
     --footer-height: 70px;
-    --radius: 8px;
+    --radius: 12px;
     --theme: rgb(255, 255, 255);
     --entry: rgb(255, 255, 255);
-    --primary: rgb(30, 30, 30);
-    --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
-    --gray: rgb(165, 165, 165);
-    --content: rgb(30, 30, 30);
+    --primary: rgb(15, 15, 15);
+    --secondary: rgb(100, 100, 100);
+    --tertiary: rgb(240, 240, 240);
+    --gray: rgb(140, 140, 140);
+    --content: rgb(20, 20, 20);
     --hljs-bg: rgb(28, 29, 33);
-    --code-bg: rgb(245, 245, 245);
-    --border: rgb(238, 238, 238);
-    --blue-links: #1565c0;
-    --light-blue-buttons: #4dabf5;
+    --code-bg: rgb(248, 248, 248);
+    --border: rgb(230, 230, 230);
+    --blue-links: #2563eb;
+    --light-blue-buttons: #3b82f6;
     --semibold: 500;
     --homesize: 16px;
     --textsize: 18px;
-    --h1size: 25px;
+    --h1size: 28px;
     --entrysize: 15px;
     --headersize: 16px;
     --footersize: 13px;
-    --lineheight: 1.45;
+    --lineheight: 1.6;
     --lineclamp: 8;
     --marginleft: 26px;
 }
 
+/* Dark mode disabled - keeping only light theme */
+/*
 .dark {
-    --theme: rgb(29, 30, 32);
-    --entry: rgb(46, 46, 51);
-    --primary: rgb(218, 218, 219);
-    --secondary: rgb(155, 156, 157);
-    --tertiary: rgb(65, 66, 68);
-    --content: rgb(196, 196, 197);
-    --hljs-bg: rgb(46, 46, 51);
-    --code-bg: rgb(55, 56, 62);
-    --border: rgb(51, 51, 51);
+    --theme: rgb(10, 10, 10);
+    --entry: rgb(20, 20, 20);
+    --primary: rgb(245, 245, 245);
+    --secondary: rgb(160, 160, 160);
+    --tertiary: rgb(40, 40, 40);
+    --gray: rgb(120, 120, 120);
+    --content: rgb(220, 220, 220);
+    --hljs-bg: rgb(15, 15, 15);
+    --code-bg: rgb(25, 25, 25);
+    --border: rgb(50, 50, 50);
+    --blue-links: #60a5fa;
+    --light-blue-buttons: #3b82f6;
 }
+*/
 
 .list {
     background: var(--code-bg);
 }
 
+/* Dark mode list background disabled */
+/*
 .dark.list {
     background: var(--theme);
 }
+*/

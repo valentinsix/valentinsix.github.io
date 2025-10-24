@@ -36,6 +36,8 @@
     margin-inline-end: 8px;
 }
 
+/* Dark mode disabled - theme toggle button hidden */
+/*
 button#theme-toggle {
     font-size: 20px;
     margin: auto 4px;
@@ -49,6 +51,7 @@ body.dark #moon {
 body:not(.dark) #sun {
     display: none;
 }
+*/
 
 #menu {
     list-style: none;
@@ -67,7 +70,7 @@ body:not(.dark) #sun {
 }
 
 #menu .active {
-    border-bottom: 2px solid var(--darkpurple);
+    border-bottom: 2px solid var(--blue-links);
 }
 
 .lang-switch li,

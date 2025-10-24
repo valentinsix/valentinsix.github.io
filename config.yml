@@ -15,12 +15,15 @@ menu:
     - name: Research
       url: research/
       weight: 1
+    - name: Blog
+      url: blog/
+      weight: 2
     - name: Curriculum
       url: curriculum/
-      weight: 2
+      weight: 3
     - name: Contact
       url: contact/
-      weight: 3
+      weight: 4
 
 params:
   description: "This website hosts information about Valentin Six, including research interests, publications, curriculum and contact information."
@@ -29,7 +32,7 @@ params:
   DateFormat: "January 2006"
   defaultTheme: light
   hideFooter: false
-  disableThemeToggle: false
+  disableThemeToggle: true
   ShowShareButtons: false
   ShowReadingTime: false
   disableSpecial1stPost: true
@@ -38,7 +41,7 @@ params:
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
   ShowAllPagesInArchive: false
-  MainSections: ["research", "curriculum", "contact"]
+  MainSections: ["research", "blog", "curriculum", "contact"]
   ShowToc: false
   disableScrollToTop: true
   TocOpen: true
@@ -60,6 +63,8 @@ params:
     buttons:
       - name: Research
         url: research/
+      - name: Blog
+        url: blog/
       - name: Curriculum
         url: curriculum/
       - name: Contact
