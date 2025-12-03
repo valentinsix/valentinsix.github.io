@@ -443,12 +443,10 @@ ninja.data = [{
             },},{id: "news-i-wrapped-up-my-research-internship-at-cea-list",
           title: 'I wrapped up my research internship at CEA-LIST!',
           description: "",
-          section: "News",},{id: "news-announcement-2",
-          title: 'Announcement_2',
+          section: "News",},{id: "news-i-started-my-last-semester-at-georgia-tech",
+          title: 'I started my last semester at Georgia Tech!',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "projects-project-1",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
