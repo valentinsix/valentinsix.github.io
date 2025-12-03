@@ -440,15 +440,15 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-announcement-2",
+            },},{id: "news-i-wrapped-up-my-research-internship-at-cea-list",
+          title: 'I wrapped up my research internship at CEA-LIST!',
+          description: "",
+          section: "News",},{id: "news-announcement-2",
           title: 'Announcement_2',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-i-wrapped-up-my-research-internship-at-cea-list",
-          title: 'I wrapped up my research internship at CEA-LIST!',
-          description: "",
-          section: "News",},{id: "projects-project-1",
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
