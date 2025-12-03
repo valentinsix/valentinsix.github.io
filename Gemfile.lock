@@ -146,8 +146,6 @@ GEM
     jekyll-get-json (1.0.0)
       deep_merge (~> 1.2)
       jekyll (>= 3.0)
-    jekyll-imagemagick (1.4.0)
-      jekyll (>= 3.4)
     jekyll-jupyter-notebook (0.0.6)
       jekyll
     jekyll-link-attributes (1.0.1)
@@ -295,7 +293,6 @@ DEPENDENCIES
   jekyll-email-protect
   jekyll-feed
   jekyll-get-json
-  jekyll-imagemagick
   jekyll-jupyter-notebook
   jekyll-link-attributes
   jekyll-minifier
