@@ -445,10 +445,7 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-i-wrapped-up-my-research-internship-at-cea-list",
+            },},{id: "news-i-wrapped-up-my-research-internship-at-cea-list",
           title: 'I wrapped up my research internship at CEA-LIST!',
           description: "",
           section: "News",},{id: "projects-project-1",
