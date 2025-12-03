@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: Valentin_SIX_Resume (8) (1).pdf # you can also use external links here
+cv_pdf: resume.pdf # you can also use external links here
 description:
 toc:
   sidebar: left
