@@ -15,7 +15,7 @@ cv_pdf: /assets/pdf/resume.pdf # path to your CV PDF file
 email: vsix3@gatech.edu # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
-# github_username: valentinsix
+github_username: valentinsix
 # gitlab_username: # your GitLab user name
 # hal_id: # your HAL id (https://hal.science/)
 # ieee_id: # your ieeexplore.ieee.org/author/id
@@ -35,7 +35,7 @@ linkedin_username: valentin-six
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
-rss_icon: true # comment this line to hide the RSS icon
+# rss_icon: true # comment this line to hide the RSS icon
 scholar_userid: bDJt-yIAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
