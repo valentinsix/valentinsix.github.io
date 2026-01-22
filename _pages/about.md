@@ -23,8 +23,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Master's student in Computer Science at the Georgia Institute of Technology, specializing in Machine Learning. My research focuses on generative models, interpretability, and representation learning.
+I am currently at the **Max Planck Institute for Intelligent Systems** with [Bernhard Schölkopf](https://scholar.google.com/citations?user=DZ-fHPgAAAAJ&hl=en) and [Lance Da Costa](https://scholar.google.com/citations?user=PCHqHCsAAAAJ&hl=en), where we work on active model discovery. 
 
-At Georgia Tech, I work with Prof. Yingyan (Celine) Lin on accelerating diffusion-based LLM inference, and with Prof. Pan Li on adaptive retrieval selection methods. In January 2026, I will start working with Lance Da Costa at the Max Planck Institute for Intelligent Systems to work on Agent Foundation Models.
+I was previously a Master's student in Computer Science at **Georgia Tech**, where I worked with [Prof. Pan Li](https://scholar.google.com/citations?user=IroP0EwAAAAJ&hl=en) on Adaptive Graph Retrieval-Augmented Generation. And even before that (time goes by really fast...), I was an undergraduate student at the **Institut Polytechnique de Paris** where I studied Mathematics and Computer Science.
 
-This site is under construction. I will try to add more things to it when I'm done with my exams :smile:
+This site is under construction. I will try to add more things when I have some time :smile:

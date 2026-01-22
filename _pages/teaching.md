@@ -10,7 +10,7 @@ nav_order: 6
 On this page, I want to share various ressources (research papers, lectures, blog posts, websites...) that I enjoyed watching or reading. 
 
 ## Some Tips For Doing Research
--  [How to do reserach ? ](https://people.csail.mit.edu/billf/publications/How_To_Do_Research.pdf)(Bill Freeman, MIT)
+-  [How to do research ? ](https://people.csail.mit.edu/billf/publications/How_To_Do_Research.pdf)(Bill Freeman, MIT)
 - [How I think About My Research ](https://www.lesswrong.com/s/5GT3yoYM9gRmMEKqL)(Neel Nanda, Google DeepMind)
 - [Research Taste Exercises ](https://colah.github.io/notes/taste/)(Chris Olah, Anthropic)
 - [Research as a Stochastic Decision Process ](https://cs.stanford.edu/~jsteinhardt/ResearchasaStochasticDecisionProcess.html)(Jacob Steinhardt, Berkeley)
@@ -26,7 +26,7 @@ On this page, I want to share various ressources (research papers, lectures, blo
 - [Some Notes on Writting ](https://www.cs.ubc.ca/~schmidtm/Courses/Notes/writing.pdf)(Mark Scmidt, University of British Columbia)
 
 ## AI / Machine Learning Positions
-- [The Bitter Lession ](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)(Rich Sutton, University of Alberta)
+- [The Bitter Lesson ](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)(Rich Sutton, University of Alberta)
 - [From Scaling to Research ](https://www.youtube.com/watch?v=aR20FWCCjAs&t=1299s)(Dwarkesh Patel, Ilya Sutskever)
 - [Can AI do scientific research? ](https://www.youtube.com/watch?v=_y-adr82FEY&list=LL&index=1)(Lex Fridman, Demis Hassabis)
 
