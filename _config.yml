@@ -82,8 +82,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: The Atomic Blog # blog_name will be displayed in your blog page
-blog_description: I will try to post every other day when I will have more time (sometimes after Dec. 15)
+blog_name: Latent Thoughts # blog_name will be displayed in your blog page
+blog_description: Unfinished thoughts on Machine Learning and Research
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
