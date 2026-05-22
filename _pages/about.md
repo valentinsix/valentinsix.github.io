@@ -23,8 +23,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently at the **Max Planck Institute for Intelligent Systems** with [Bernhard Schölkopf](https://scholar.google.com/citations?user=DZ-fHPgAAAAJ&hl=en) and [Lance Da Costa](https://scholar.google.com/citations?user=PCHqHCsAAAAJ&hl=en), where we work on active model discovery. 
+**Research Intern at [Max Planck Institute for Intelligent Systems](https://is.mpg.de/en). I work on Probabilisitc World Models.**
 
-I was previously a Master's student in Computer Science at **Georgia Tech**, where I worked with [Prof. Pan Li](https://scholar.google.com/citations?user=IroP0EwAAAAJ&hl=en) on Adaptive Graph Retrieval-Augmented Generation. And even before that (time goes by really fast...), I was an undergraduate student at the **Institut Polytechnique de Paris** where I studied Mathematics and Computer Science.
+I am currently at the [Empirical Inference Lab](https://is.mpg.de/ei) at the [Max Planck Institute for Intelligent Systems](https://is.mpg.de/en), working with [Bernhard Schölkopf](https://scholar.google.com/citations?user=DZ-fHPgAAAAJ&hl=en) and [Lance Da Costa](https://scholar.google.com/citations?user=PCHqHCsAAAAJ&hl=en). We are conducting research on **making agents that can learn and plan effectively** using foundation model priors.
 
-This site is under construction. I will try to add more things when I have some time :smile:
+Previously, I obtained an Master's degree in Computer Science at [Georgia Tech](https://www.gatech.edu/), and both Bachelor + Master's degrees from [Télécom SudParis](https://www.telecom-sudparis.eu/) (founding school of the [Institut Polytechnique de Paris](https://www.ip-paris.fr/en)) where I studied Mathematics and Physics.
+
+Feel free to reach out!
