@@ -1,12 +1,12 @@
 ---
 layout: about
-title: About
+title: Home
 permalink: /
 subtitle:
 profile:
   align: right
-  image: prof_pic.png
-  image_circular: false # crops the image to make it circular
+  image: profile_pic.JPG
+  image_circular: true # crops the image to make it circular
   more_info:
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -23,10 +23,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-**Research Intern at [Max Planck Institute for Intelligent Systems](https://is.mpg.de/en). I work on Probabilisitc World Models.**
+Hi there ! 👋🏼
 
-I am currently at the [Empirical Inference Lab](https://is.mpg.de/ei) at the [Max Planck Institute for Intelligent Systems](https://is.mpg.de/en), working with [Bernhard Schölkopf](https://scholar.google.com/citations?user=DZ-fHPgAAAAJ&hl=en) and [Lance Da Costa](https://scholar.google.com/citations?user=PCHqHCsAAAAJ&hl=en). We are conducting research on **making agents that can learn and plan effectively** using foundation model priors.
+My name is Valentin and I do research in Machine Learning.
 
-Previously, I obtained an Master's degree in Computer Science at [Georgia Tech](https://www.gatech.edu/), and both Bachelor + Master's degrees from [Télécom SudParis](https://www.telecom-sudparis.eu/) (founding school of the [Institut Polytechnique de Paris](https://www.ip-paris.fr/en)) where I studied Mathematics and Physics.
+I am currently a research intern in the [Empirical Inference Lab](https://is.mpg.de/ei) at the [Max Planck Institute for Intelligent Systems](https://is.mpg.de/en). I work with Prof. [Bernhard Schölkopf](https://scholar.google.com/citations?user=DZ-fHPgAAAAJ&hl=en) and [Lancelot Da Costa](https://www.lancelotdacosta.com/) on using LLMs to help agents learn and plan effectively in the world they interact with.
+
+In Fall 2026, I will begin a PhD in Computer Science at the [University of Virginia](https://www.virginia.edu/), where I will be advised by Prof. [Hadi Daneshmand](https://hadidaneshmand.github.io/dhadi.html). I was very fortunate to receive the UVA Provost Fellowship for my PhD.
+
+Previously, I earned a Master's degree in Computer Science from [Georgia Tech](https://www.gatech.edu/), as well as Bachelor's degree from [Télécom SudParis](https://www.telecom-sudparis.eu/), where I studied Mathematics and Physics.
 
 Feel free to reach out!

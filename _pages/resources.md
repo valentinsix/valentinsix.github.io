@@ -1,13 +1,13 @@
 ---
 layout: page
-permalink: /ressoucres/
-title: Ressources
+permalink: /resources/
+title: Resources
 description:
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
-On this page, I want to share various ressources (research papers, lectures, blog posts, websites...) that I enjoyed watching or reading. 
+On this page, I want to share various resources (research papers, lectures, blog posts, websites...) that I enjoyed watching or reading. 
 
 ## Some Tips For Doing Research
 -  [How to do research ? ](https://people.csail.mit.edu/billf/publications/How_To_Do_Research.pdf)(Bill Freeman, MIT)
