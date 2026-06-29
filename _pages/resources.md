@@ -36,4 +36,8 @@ On this page, I want to share various resources (research papers, lectures, blog
 
 - [Causal Representation Learning: A Natural Fit for Mechanistic Interpretability ](https://www.youtube.com/watch?v=1fy9XpSoG3o&list=LL&index=2&t=2095s)(Dhanya Sridhar, Université de Montréal / MILA)
 - [Lecture Series on Probabilistic ML ](https://www.youtube.com/watch?v=qg7V43qhOUE&list=PL05umP7R6ij0hPfU7Yuz8J9WXjlb3MFjm)(Philipp Hennig, University of Tübingen)
-- [Causal Mechanistic Interpretability](https://www.youtube.com/watch?v=78Xa8VkH7-g&list=LL&index=12)((Atticus Geiger, Stanford))
+- [Causal Mechanistic Interpretability](https://www.youtube.com/watch?v=78Xa8VkH7-g&list=LL&index=12) (Atticus Geiger, Stanford)
+
+## SIngular Learning Theory / Developmental Interpretability
+
+- [Theoretical And Empirical Aspects Of Singular Learning Theory For AI Alignment](https://www.youtube.com/watch?v=H5VJuKsmtZ8) (Daniel Murfet, Timaeus)
