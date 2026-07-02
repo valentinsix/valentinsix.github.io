@@ -44,11 +44,22 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/resources/";
           },
-        },{id: "post-why-writing-a-blog",
+        },{id: "post-a-gentle-introduction-to-singular-learning-theory",
+        
+          title: "A Gentle Introduction to Singular Learning Theory",
+        
+        description: "Explaining my basic understanding of SLT and devinterp",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/slt/";
+          
+        },
+      },{id: "post-why-writing-a-blog",
         
           title: "Why Writing a Blog?",
         
-        description: "Exploring the reasons behind starting a personal blog for clear thinking, idea organization, and knowledge sharing in academic and research contexts.",
+        description: "Why I&#39;m writing this blog, and what to expect from it, research notes and reflections on doing research well.",
         section: "Posts",
         handler: () => {
           
