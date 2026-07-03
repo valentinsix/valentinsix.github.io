@@ -1,6 +1,6 @@
 # Writing style notes
 
-A personal reference for the tone and voice I want in blog posts. This is not about structure or formatting (headings, bullet lists, etc.), just how the writing should *sound*.
+A personal reference for the tone and voice I want in blog posts. This is not about structure or formatting (headings, bullet lists, etc.), just how the writing should _sound_.
 
 Reference posts, for voice and tone only. Structurally they both lean on bullet points more than I want:
 
