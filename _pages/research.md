@@ -25,7 +25,7 @@ Representations don't always emerge gradually. Grokking [[Power et al., 2022](ht
 
 ### When does a model memorize, and when does it generalize?
 
-The standard story is that memorization and generalization are opposites — a model either memorizes its training data or learns something transferable. But that's not quite right: memorizing rare examples can actually be necessary for good generalization [[Feldman, 2020](https://dl.acm.org/doi/pdf/10.1145/3357713.3384290)]. **Singular learning theory** studies the geometry of the loss landscape near singularities to predict which solutions gradient descent actually finds, and why some generalize better than others.  
+The standard story is that memorization and generalization are opposites — a model either memorizes its training data or learns something transferable. But that's not quite right: memorizing rare examples can actually be necessary for good generalization [[Feldman, 2020](https://dl.acm.org/doi/pdf/10.1145/3357713.3384290)]. **Singular learning theory** studies the geometry of the loss landscape near singularities to predict which solutions gradient descent actually finds, and why some generalize better than others.
 
 This question also matters beyond test accuracy ; it may help explain when capabilities emerge and which examples have a lasting influence on what a model becomes.
 
