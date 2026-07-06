@@ -44,11 +44,22 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/resources/";
           },
-        },{id: "post-a-gentle-introduction-to-singular-learning-theory",
+        },{id: "post-a-gentle-introduction-to-mechanistic-interpretability",
         
-          title: "A Gentle Introduction to Singular Learning Theory",
+          title: "A Gentle Introduction to Mechanistic Interpretability",
         
-        description: "Explaining my basic understanding of SLT and devinterp",
+        description: "Laying down the basics and justifying the existence of the field.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/mechinterp/";
+          
+        },
+      },{id: "post-singular-learning-theory-and-developmental-interpretability",
+        
+          title: "Singular Learning Theory and Developmental Interpretability",
+        
+        description: "Explaining my basic understanding of SLT and how we can use it for interpretability.",
         section: "Posts",
         handler: () => {
           
@@ -59,7 +70,7 @@ ninja.data = [{
         
           title: "Why Writing a Blog?",
         
-        description: "Why I&#39;m writing this blog, and what to expect from it, research notes and reflections on doing research well.",
+        description: "Why I&#39;m writing a blog, and what to expect from it.",
         section: "Posts",
         handler: () => {
           
