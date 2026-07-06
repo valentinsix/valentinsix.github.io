@@ -256,6 +256,11 @@ html[data-theme="dark"] .post article em {
   border-bottom-color: var(--global-divider-color);
   padding-bottom: 1.6rem;
   padding-top: 1.6rem;
+
+  h3 .post-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
 }
 
 .publications {
