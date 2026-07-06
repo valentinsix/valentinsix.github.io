@@ -178,10 +178,10 @@ A few current directions are worth knowing about. One is **scaling sparse autoen
 
 ## Wrapping up and how to start
 
-A few concrete starting points: Anthropic's **Transformer Circuits** publications are the closest thing the field has to a canonical reading list, starting with the original circuits work on vision models and moving through induction heads, superposition, and sparse autoencoders. **TransformerLens** is an open-source library built specifically for this kind of research: it makes it easy to grab internal activations, run activation patching experiments, and poke around small models like GPT-2. Replicating a small, well-documented result yourself is a much better way to build intuition than reading about it. 
+A few concrete starting points: Anthropic's **Transformer Circuits** publications are the closest thing the field has to a canonical reading list, starting with the original circuits work on vision models and moving through induction heads, superposition, and sparse autoencoders. **TransformerLens** is an open-source library built specifically for this kind of research: it makes it easy to grab internal activations, run activation patching experiments, and poke around small models like GPT-2. Replicating a small, well-documented result yourself is a much better way to build intuition than reading about it.
 
 Mechanistic interpretability is, at its core, a huge bet: that the strange, huge-dimensional, seemingly opaque computations inside a trained neural network aren't actually an unstructured mess, but a genuine algorithm, messy in places, but ultimately built out of identifiable and reusable parts. The field has real, concrete wins to point to, and honest obstacles still in front of it. I don't think anyone in the field would tell you it's close to "solved".
 
---- 
+---
 
 _If you spot something inaccurate here, feel free to reach out. This is very much a "learning in public" post._
