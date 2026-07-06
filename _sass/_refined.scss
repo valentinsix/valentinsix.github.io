@@ -127,6 +127,12 @@ body.fixed-top-nav {
     margin-bottom: 0.75rem;
     margin-top: 2.25rem;
   }
+
+  article em {
+    background-color: rgba(183, 100, 78, 0.14);
+    border-radius: 2px;
+    padding: 0.05em 0.2em;
+  }
 }
 
 p {
@@ -147,6 +153,16 @@ article p a {
 
 html[data-theme="dark"] article p a {
   text-decoration-color: rgba(183, 100, 78, 0.46);
+}
+
+html[data-theme="dark"] .post article em {
+  background-color: rgba(183, 100, 78, 0.32);
+}
+
+.diagram-on-light {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 1.25rem;
 }
 
 .profile {
