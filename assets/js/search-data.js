@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/resources/";
           },
-        },{id: "post-a-gentle-introduction-to-mechanistic-interpretability",
+        },{id: "post-in-context-learning-learning-at-inference-time",
+        
+          title: "In-Context Learning: Learning at Inference Time",
+        
+        description: "A tour through what in-context learning is, how it emerged, and the theories for why it works.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/icl/";
+          
+        },
+      },{id: "post-a-gentle-introduction-to-mechanistic-interpretability",
         
           title: "A Gentle Introduction to Mechanistic Interpretability",
         
