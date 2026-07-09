@@ -186,11 +186,11 @@ Mechanistic interpretability is, at its core, a huge bet: that the strange, huge
 
 ### References
 
-- Abraham, A. A. (2025). *Deep Sparse Autoencoders Yield Interpretable Features, Too.* AI Alignment Forum.
-- Olsson, C. et al. (2022). *In-context Learning and Induction Heads.* Transformer Circuits Thread, Anthropic.
-- Wang, K. et al. (2023). *Interpretability in the Wild: A Circuit for Indirect Object Identification in GPT-2 Small.* ICLR.
-- Nanda, N. et al. (2023). *Progress Measures for Grokking via Mechanistic Interpretability.* ICLR.
-- Nanda, N., & Bloom, J. (2022). *TransformerLens.* GitHub.
+- Abraham, A. A. (2025). _Deep Sparse Autoencoders Yield Interpretable Features, Too._ AI Alignment Forum.
+- Olsson, C. et al. (2022). _In-context Learning and Induction Heads._ Transformer Circuits Thread, Anthropic.
+- Wang, K. et al. (2023). _Interpretability in the Wild: A Circuit for Indirect Object Identification in GPT-2 Small._ ICLR.
+- Nanda, N. et al. (2023). _Progress Measures for Grokking via Mechanistic Interpretability._ ICLR.
+- Nanda, N., & Bloom, J. (2022). _TransformerLens._ GitHub.
 
 ---
 
