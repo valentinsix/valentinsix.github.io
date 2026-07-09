@@ -82,8 +82,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Latent Thoughts # blog_name will be displayed in your blog page
-blog_description: Unfinished thoughts on Machine Learning and Research
+blog_name: Working Notes # blog_name will be displayed in your blog page
+blog_description: My personal notes and opinions on Machine Learning and Research
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 

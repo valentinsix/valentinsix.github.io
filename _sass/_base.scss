@@ -926,6 +926,11 @@ pre {
     border-radius: 0;
     margin-bottom: 0;
     padding: 0;
+    // Undo the global `code { white-space: normal }` rule below, meant for
+    // inline code spans: code nested in a pre block must keep line breaks
+    // and indentation instead of wrapping like prose.
+    white-space: pre;
+    word-wrap: normal;
   }
 }
 
@@ -1493,6 +1498,27 @@ figure.cover {
   }
 }
 
+// Let display equations stay at full size and break out of the narrow text
+// column when they need more room, instead of shrinking or scrolling.
+// margin-left: 50% + translateX(-50%) centers the box on its containing
+// block's own center, regardless of the box's width, so it can extend
+// symmetrically past the column on both sides.
 mjx-container[jax="CHTML"][display="true"] {
-  overflow-x: auto;
+  overflow-x: visible;
+  // Size to the equation's true content width (never narrower, so the box
+  // isn't forced below its content and centering below stays symmetric).
+  width: max-content;
+  // !important: MathJax injects its own "margin: 1em 0" rule client-side,
+  // after this stylesheet loads, which otherwise wins the cascade tie.
+  margin-left: 50% !important;
+  transform: translateX(-50%);
+}
+
+html,
+body {
+  // Safety net: an equation wider than the viewport should bleed off the
+  // edge symmetrically and silently, rather than introduce a page-level
+  // horizontal scrollbar. Needs to be on both html and body: a transformed
+  // descendant's overflow isn't reliably suppressed by body alone.
+  overflow-x: hidden;
 }
