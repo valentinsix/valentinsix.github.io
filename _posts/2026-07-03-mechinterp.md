@@ -92,7 +92,7 @@ $$
 
 The $\ell_1$ penalty pushes most entries of $z$ to exactly zero for any given input, which is what encourages each surviving non-zero entry to correspond to a single, clean, interpretable feature rather than a blend of several. This has been one of a very productive development in the field, as it gives you a somewhat automated way of pulling human-interpretable concepts out of superposed representations, at least approximately.
 
-{% include figure.liquid path="assets/img/mechinterp/sae-diagram.png" class="img-fluid rounded z-depth-1 mx-auto d-block diagram-on-light" max-width="480px" zoomable=true caption='A sparse autoencoder reconstructing a target network&#39;s activations through a wider, sparsely-active hidden layer, in the hope that each active unit lines up with a single genuine feature. <a href="https://www.alignmentforum.org/posts/tLCBJn3NcSNzi5xng/deep-sparse-autoencoders-yield-interpretable-features-too" target="_blank">Source</a>.' %}
+{% include figure.liquid path="assets/img/mechinterp/sae-diagram.png" class="img-fluid rounded z-depth-1 mx-auto d-block diagram-on-light" max-width="480px" zoomable=true caption='A sparse autoencoder reconstructing a target network&#39;s activations through a wider, sparsely-active hidden layer, in the hope that each active unit lines up with a single genuine feature. <a href="https://www.alignmentforum.org/posts/tLCBJn3NcSNzi5xng/deep-sparse-autoencoders-yield-interpretable-features-too" target="_blank">Source: Abraham, 2025</a>.' %}
 
 ---
 
@@ -134,7 +134,7 @@ More generally, the field has moved from "purely observational" methods (probing
 
 Abstract descriptions only get you so far, and it is actually one of the strong criticism the filed is facing. But here are some of the field's most-cited concrete results:
 
-**Induction heads:** it's one of the earliest and cleanest findings. Many transformers develop a specific type of attention head, called an induction head, that implements a simple pattern-completion rule. If token $A$ was followed by token $B$ earlier in the context, and $A$ shows up again, the head boosts the prediction for $B$:
+**Induction heads:** it's one of the earliest and cleanest findings. Many transformers develop a specific type of attention head, called an induction head (Olsson et al., 2022), that implements a simple pattern-completion rule. If token $A$ was followed by token $B$ earlier in the context, and $A$ shows up again, the head boosts the prediction for $B$:
 
 $$
 \text{if } \ldots, A, B, \ldots, A, \_\_ \quad \Rightarrow \quad P(\text{next} = B) \uparrow
@@ -142,9 +142,9 @@ $$
 
 This is a big part of how models do in-context learning: copying and completing patterns they've seen earlier in their own context window. Induction heads also tend to emerge somewhat suddenly during training, and that emergence tracks with a jump in the model's in-context learning ability, a nice concrete link between "a specific mechanism appearing" and "a capability appearing."
 
-**The Indirect Object Identification (IOI) circuit:** given a sentence like _"When Mary and John went to the store, John gave a drink to \_\_\_,"_ GPT-2 small reliably predicts "Mary." Researchers traced out the full circuit responsible: specific attention heads that identify duplicate names, other heads that figure out who the subject of the sentence is, and heads that move the correct name to the output. This was one of the first times a non-trivial language model behavior was mapped out almost completely, head by head.
+**The Indirect Object Identification (IOI) circuit:** given a sentence like _"When Mary and John went to the store, John gave a drink to \_\_\_,"_ GPT-2 small reliably predicts "Mary." Researchers traced out the full circuit responsible (Wang et al., 2023): specific attention heads that identify duplicate names, other heads that figure out who the subject of the sentence is, and heads that move the correct name to the output. This was one of the first times a non-trivial language model behavior was mapped out almost completely, head by head.
 
-**Modular addition and grokking:** A small transformer trained to compute addition modulo some prime number will, after a long plateau, suddenly "grok" the task: it goes from from memorizing the training examples to generalizing perfectly. When researchers looked inside a grokked network, they found it had learned to represent each number $a$ as a point on a circle, roughly as $(\cos(\omega a), \sin(\omega a))$ for some learned frequency $\omega$. Addition then falls out almost for free from the angle-addition identity:
+**Modular addition and grokking:** A small transformer trained to compute addition modulo some prime number will, after a long plateau, suddenly "grok" the task: it goes from from memorizing the training examples to generalizing perfectly. When Nanda et al. (2023) looked inside a grokked network, they found it had learned to represent each number $a$ as a point on a circle, roughly as $(\cos(\omega a), \sin(\omega a))$ for some learned frequency $\omega$. Addition then falls out almost for free from the angle-addition identity:
 
 $$
 \cos(\omega(a+b)) = \cos(\omega a)\cos(\omega b) - \sin(\omega a)\sin(\omega b)
@@ -152,7 +152,7 @@ $$
 
 The network's internal multiplications and additions turn out to implement essentially this trigonometric identity, which is why the result generalizes perfectly instead of just memorizing training examples: it's a genuine, compact arithmetic algorithm.
 
-{% include figure.liquid path="assets/img/mechinterp/grokking-1-layer-transformer.webp" class="img-fluid rounded z-depth-1 diagram-on-light" zoomable=true caption='The grokked one-layer transformer&#39;s internal circuit for modular addition: numbers get embedded onto a circle, combined via trig identities, and read off into logits. <a href="https://www.neelnanda.io/grokking-paper" target="_blank">Source</a>.' %}
+{% include figure.liquid path="assets/img/mechinterp/grokking-1-layer-transformer.webp" class="img-fluid rounded z-depth-1 diagram-on-light" zoomable=true caption='The grokked one-layer transformer&#39;s internal circuit for modular addition: numbers get embedded onto a circle, combined via trig identities, and read off into logits. <a href="https://www.neelnanda.io/grokking-paper" target="_blank">Source: Nanda et al., 2023</a>.' %}
 
 These examples matter beyond their specific content: they're existence proofs. They show that at least in some cases, real trained networks _do_ implement clean, human-legible algorithms. And that's the basic bet the whole field is making.
 
@@ -178,9 +178,19 @@ A few current directions are worth knowing about. One is **scaling sparse autoen
 
 ## Wrapping up and how to start
 
-A few concrete starting points: Anthropic's **Transformer Circuits** publications are the closest thing the field has to a canonical reading list, starting with the original circuits work on vision models and moving through induction heads, superposition, and sparse autoencoders. **TransformerLens** is an open-source library built specifically for this kind of research: it makes it easy to grab internal activations, run activation patching experiments, and poke around small models like GPT-2. Replicating a small, well-documented result yourself is a much better way to build intuition than reading about it.
+A few concrete starting points: Anthropic's **Transformer Circuits** publications are the closest thing the field has to a canonical reading list, starting with the original circuits work on vision models and moving through induction heads, superposition, and sparse autoencoders. **TransformerLens** (Nanda & Bloom, 2022) is an open-source library built specifically for this kind of research: it makes it easy to grab internal activations, run activation patching experiments, and poke around small models like GPT-2. Replicating a small, well-documented result yourself is a much better way to build intuition than reading about it.
 
 Mechanistic interpretability is, at its core, a huge bet: that the strange, huge-dimensional, seemingly opaque computations inside a trained neural network aren't actually an unstructured mess, but a genuine algorithm, messy in places, but ultimately built out of identifiable and reusable parts. The field has real, concrete wins to point to, and honest obstacles still in front of it. I don't think anyone in the field would tell you it's close to "solved".
+
+---
+
+### References
+
+- Abraham, A. A. (2025). *Deep Sparse Autoencoders Yield Interpretable Features, Too.* AI Alignment Forum.
+- Olsson, C. et al. (2022). *In-context Learning and Induction Heads.* Transformer Circuits Thread, Anthropic.
+- Wang, K. et al. (2023). *Interpretability in the Wild: A Circuit for Indirect Object Identification in GPT-2 Small.* ICLR.
+- Nanda, N. et al. (2023). *Progress Measures for Grokking via Mechanistic Interpretability.* ICLR.
+- Nanda, N., & Bloom, J. (2022). *TransformerLens.* GitHub.
 
 ---
 
