@@ -63,6 +63,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/slt/";
           
         },
+      },{id: "post-how-transformers-actually-work-from-first-principles-to-production",
+        
+          title: "How Transformers Actually Work: From First Principles to Production",
+        
+        description: "From attention mechanics to training, serving, and interpretability",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/transformers/";
+          
+        },
       },{id: "news-i-wrapped-up-my-research-internship-at-cea-list",
           title: 'I wrapped up my research internship at CEA-LIST!',
           description: "",
