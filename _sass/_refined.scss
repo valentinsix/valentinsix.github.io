@@ -2,40 +2,6 @@
  * Restrained visual refinements layered on top of al-folio.
  ******************************************************************************/
 
-:root {
-  --global-bg-color: #f7f7f3;
-  --global-card-bg-color: #ffffff;
-  --global-code-bg-color: #edeee8;
-  --global-text-color: #252827;
-  --global-text-color-light: #737873;
-  --global-theme-color: #b7644e;
-  --global-hover-color: #874536;
-  --global-hover-text-color: #ffffff;
-  --global-divider-color: rgba(37, 40, 39, 0.13);
-  --global-footer-bg-color: #f7f7f3;
-  --global-footer-text-color: #737873;
-  --global-footer-link-color: #252827;
-  --global-newsletter-bg-color: #ffffff;
-  --global-newsletter-text-color: #252827;
-}
-
-html[data-theme="dark"] {
-  --global-bg-color: #202321;
-  --global-card-bg-color: #282c29;
-  --global-code-bg-color: #2d322f;
-  --global-text-color: #eceeea;
-  --global-text-color-light: #adb3ad;
-  --global-theme-color: #b7644e;
-  --global-hover-color: #d98a73;
-  --global-hover-text-color: #202321;
-  --global-divider-color: rgba(236, 238, 234, 0.14);
-  --global-footer-bg-color: #202321;
-  --global-footer-text-color: #adb3ad;
-  --global-footer-link-color: #eceeea;
-  --global-newsletter-bg-color: #282c29;
-  --global-newsletter-text-color: #eceeea;
-}
-
 body {
   background-color: var(--global-bg-color);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -61,15 +27,11 @@ h6 {
 }
 
 .navbar {
-  background-color: rgba(247, 247, 243, 0.94);
+  background-color: rgba(247, 245, 240, 0.94);
   backdrop-filter: blur(12px);
   border-bottom-color: var(--global-divider-color);
   min-height: 60px;
   opacity: 1;
-}
-
-html[data-theme="dark"] .navbar {
-  background-color: rgba(32, 35, 33, 0.94);
 }
 
 body.fixed-top-nav {
@@ -129,7 +91,7 @@ body.fixed-top-nav {
   }
 
   article em {
-    background-color: rgba(183, 100, 78, 0.14);
+    background-color: rgba(51, 51, 51, 0.14);
     border-radius: 2px;
     padding: 0.05em 0.2em;
   }
@@ -146,17 +108,9 @@ hr {
 }
 
 article p a {
-  text-decoration-color: rgba(183, 100, 78, 0.42);
+  text-decoration-color: rgba(51, 51, 51, 0.42);
   text-decoration-thickness: 1px;
   text-underline-offset: 0.16em;
-}
-
-html[data-theme="dark"] article p a {
-  text-decoration-color: rgba(183, 100, 78, 0.46);
-}
-
-html[data-theme="dark"] .post article em {
-  background-color: rgba(183, 100, 78, 0.32);
 }
 
 .diagram-on-light {
@@ -312,7 +266,7 @@ footer.sticky-bottom {
 }
 
 ::selection {
-  background-color: rgba(183, 100, 78, 0.24);
+  background-color: rgba(51, 51, 51, 0.24);
 }
 
 @media (max-width: 575px) {

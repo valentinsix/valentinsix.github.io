@@ -27,12 +27,12 @@ Hi there ! 👋🏼
 
 My name is Valentin and I do research in Machine Learning.
 
-My current research interests lie in the foundations and interpretability of generative models: understanding their inner mechanisms, both during training and inference.
+I am currently a PhD student in Computer Science at the [University of Virginia](https://www.virginia.edu/), advised by Prof. [Hadi Daneshmand](https://hadidaneshmand.github.io/dhadi.html).
 
-I am currently a research intern in the [Empirical Inference Lab](https://is.mpg.de/ei) at the [Max Planck Institute for Intelligent Systems](https://is.mpg.de/en). I work with Prof. [Bernhard Schölkopf](https://scholar.google.com/citations?user=DZ-fHPgAAAAJ&hl=en) and [Lancelot Da Costa](https://www.lancelotdacosta.com/) on using LLMs to help agents learn and plan effectively in the world they interact with.
+My research interests lie in the theoretical foundations of machine learning, with an emphasis on the interpretability and reliability of generative models. We try to understand their inner mechanisms, both during training and inference, using tools from probability theory, applied mathematics, and mathematical physics.
 
-In Fall 2026, I will begin a PhD in Computer Science at the [University of Virginia](https://www.virginia.edu/), where I will be advised by Prof. [Hadi Daneshmand](https://hadidaneshmand.github.io/dhadi.html). I was very fortunate to receive the UVA Provost Fellowship for my PhD.
+Previously, I was a research intern in the [Empirical Inference Lab](https://is.mpg.de/ei) at the [Max Planck Institute for Intelligent Systems](https://is.mpg.de/en), working with Prof. [Bernhard Schölkopf](https://scholar.google.com/citations?user=DZ-fHPgAAAAJ&hl=en) and [Lancelot Da Costa](https://www.lancelotdacosta.com/) on using LLMs to help agents learn and plan effectively in the world they interact with. 
 
-Previously, I earned a Master's degree in Computer Science from [Georgia Tech](https://www.gatech.edu/), as well as Bachelor's degree from [Télécom SudParis](https://www.telecom-sudparis.eu/), where I studied Mathematics and Physics.
+Before that, I earned a Master's degree in Computer Science from [Georgia Tech](https://www.gatech.edu/), as well as a Bachelor's degree from [Télécom SudParis](https://www.telecom-sudparis.eu/), where I studied Mathematics and Physics.
 
 Feel free to reach out!
