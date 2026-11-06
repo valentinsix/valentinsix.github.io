@@ -237,6 +237,12 @@ article p a {
       border-radius: 3px !important;
       box-shadow: none !important;
       width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 10;
+      object-fit: contain;
+      background-color: #fff;
+      padding: 0.4rem;
+      margin-bottom: 0.75rem;
     }
 
     .title {
